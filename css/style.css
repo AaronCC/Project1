@@ -8,12 +8,13 @@
 #header {
 	float: center;
 	width: 100%;
-	border: 2px solid Black;
+	border::px solid Black;
 	background-color: Gray;
 	text-align: center;
 	max-width: 1000px;
 	margin: auto;
-}
+:}
+
 #header2 {
 	float: center;
 	width: 100%;
@@ -49,14 +50,21 @@ th {
 		width: 480px;
 	}
 }
-#right {
+#maindiv {
+	width: 80%;
+	background-color: ##9CBA7F;
+	float: center;
+	height: 100%;
+	margin: auto;
+}
+#descriptiondiv {
 	float: right;
 	margin-top: 25px;
 	width: 49%;
 	height: 75%;
 	overflow: hidden;
 }
-#left {
+#imagesdiv {
 	float: left;
 	margin-top: 25px;
 	min-width: 480px;
@@ -72,11 +80,12 @@ tr:nth-child(2){
 	background-color: Gray;
 	text-align: center;
 }
-#aboutme{
-	text-align: left;
-}
+
 #description{
-	text-align: center;
+	background-color: gray
+	text-align: left;
+	height: 100px;
+	overflow: hide;
 }
 h1 {
 	
