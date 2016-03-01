@@ -40,8 +40,12 @@ th {
 #image1 {
 	width:100%;
 }@media only screen and (max-width: 1026px) {
-    #right {
+    #imagesdiv {
         display: none;
+    }
+    #descriptiondiv {
+    	float: center;
+
     }
 	#header{
 		width: 480px;
@@ -82,10 +86,11 @@ tr:nth-child(2){
 }
 
 #description{
-	background-color: gray
+	background-color: gray;
 	text-align: left;
-	height: 100px;
-	overflow: hide;
+	height: 250px;
+	background-color: #CFDBC5;
+		overflow: hide;
 }
 h1 {
 	
