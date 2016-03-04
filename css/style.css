@@ -16,6 +16,10 @@ margin: auto;
 height:80px;
 }
 
+section {
+	font-size: 24px;
+}
+
 #header2 {
 float: center;
 width: 100%;
@@ -40,6 +44,20 @@ height: 25px;
 }
 a {
 padding: 5px 5px 5px 5px;
+}
+#descripdiv2{
+	float: right;
+	width: 100%;
+	height: auto;
+	background-color: #c2c2f0;
+	border: 2px solid black;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+
+	text-align: center;
 }
 #image1 {
 border: 2px solid black;
@@ -80,7 +98,7 @@ width: 480px;
 }
 #maindiv {
 width: 80%;
-       background-color: #9CBA7F;
+       background-color: #ccffcc;
 float: center;
 height: auto; 
 overflow: auto;
