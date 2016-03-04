@@ -1,125 +1,128 @@
 #interests {
-	clear: all;
-	border: 2px solid Blue;
-	padding: 4px;
-	width: 100%;
-	height: 200px;
+clear: all;
+border: 2px solid Blue;
+padding: 4px;
+width: 100%;
+height: 200px;
 }
 #header {
-	float: center;
-	width: 100%;
-	border: 2px solid black;
+float: center;
+width: 100%;
+border: 2px solid black;
 	background-color: #c2c2f0;
 	text-align: center;
 	max-width: 1000px;
-	margin: auto;
-	height:80px;
+margin: auto;
+height:80px;
 }
 
 #header2 {
-	float: center;
-	width: 100%;
-	border: 1px solid black;
+float: center;
+width: 100%;
+border: 1px solid black;
 	background-color: #add8e6;
 	text-align: center;
 	max-width: 1000px;
-	margin: auto;
+margin: auto;
 }
 
 #footer {
-	position: fixed;
-	border: 2px solid gray;
+position: fixed;
+border: 2px solid gray;
 	background-color: #add8e6;
-	
-	bottom: 0;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 4px;
+bottom: 10px;
 	width 100%;
-	height: 25px;
+height: 25px;
 	text-align: center;
-
-	margin-left: 48%;
 }
 a {
-	padding: 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
 }
 #image1 {
-	border: 2px solid black;
+border: 2px solid black;
 	margin-bottom: 10px;	
 
-	width: auto;
-	height: 300px;
-	
+width: auto;
+height: 300px;
+
 	background-color: #c2c2f0;
 }
 
 #linkdiv {
-	float: left;
-	height: auto;
-	border: 1px solid black;
-	width: auto;
-	background-color: #ccccff;
-	margin: 10px 10px 10px 10px;
+position: absolute;
+float: left;
+height: auto;
+border: 1px solid black;
+width: auto;
+       background-color: #ccccff;
+margin: 10px 10px 10px 10px;
 }
 
 
-@media only screen and (max-width: 1026px) {
-    #imagesdiv {
-        display: none;
-    }
-    #descriptiondiv {
-    	float: center;
-
-    }
-	#header{
-		width: 480px;
-
-	}
-	#header2{
-		width: 480px;
-	}
-}
-#maindiv {
-	width: 80%;
-	background-color: #9CBA7F;
-	float: center;
-	height: 100%;
-	
-	margin: auto;
+@media only screen and (max-width: 1300px) {
+#imagesdiv {
+display: none;
 }
 #descriptiondiv {
-	float: right;
-	margin-top: 25px;	
-	min-width: 480px;
-	width: 49%;
-	font-size: 24px;
-	font-style: bold;
-	overflow: hidden;
+float: center;
+
+}
+#header{
+width: 480px;
+
+}
+#header2{
+width: 480px;
+}
+}
+#maindiv {
+width: 80%;
+       background-color: #9CBA7F;
+float: center;
+height: auto; 
+overflow: auto;
+
+margin: auto;
+}
+#descriptiondiv {
+float: right;
+       margin-top: 25px;	
+       min-width: 480px;
+width: 49%;
+       font-size: 24px;
+       font-style: bold;
+overflow: hidden;
 }
 #imagesdiv {
-	float: left;
-	margin-top: 25px;
-	min-width: 480px;
-	width: 49%;
-	
-	overflow: hidden;
+float: left;
+       margin-top: 25px;
+       min-width: 480px;
+width: 49%;
+
+overflow: hidden;
 }
 p {
 }
 td {
-	border: 2px solid Gray;
-	width: 120px;
+border: 2px solid Gray;
+width: 120px;
 }
 tr:nth-child(2){
-	background-color: Gray;
-	text-align: center;
-}
+	   background-color: Gray;
+	   text-align: center;
+   }
 
 #description{
-	border: 2px solid black;
+border: 2px solid black;
 	margin-bottom: 10px;	
-	
+	padding-left: 10px;	
+	padding-right: 10px;
 	text-align: left;
-	height: 300px;
-	
+height: 300px;
+	max-height: 300px;	
 	background-color: #c2c2f0;
 
 }
